@@ -7,7 +7,7 @@ import Carros from "./pages/Carros"
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="flex min-h-screen flex-col">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
