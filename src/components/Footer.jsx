@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Footer = () => {
-    const ano = new Date().getFullYear
+    const ano = new Date().getFullYear()
   
     return (
     <footer className="mt-auto border-t border-neutral-800 bg-neutral-950">
